@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration Form
+        </title>
+    </head>
+<body style="text-align: center;" >
+    <style>
+        body {
+            
+          background-image: url('GS.jpg');
+          background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+        }
+        </style>
+    
+    <h1 style="font-family:Courier;">Registration Form</h1>
+    <br>
+    <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email-id"><br><br>
+    <label for="MobileNo">Mobile No:</label>
+    <input type="tel" id="MobileNo" name="MobileNo" placeholder="Enter your mobile no."><br><br>
+    <label for="year">Year:</label>
+    <input type="number" id="year" name="year" placeholder="Enter your year"><br><br>
+    <label for="section">Section:</label>
+    <input type="text" id="section" name="section" placeholder="Enter your section"><br><br>
+    <label for="dob">DOB:</label>
+    <input type="date" id="dob" name="dob"><br><br>
+    <label for="age">Age:</lable>
+    <input type="number" id="age" name="age" placeholder="Enter your age"><br><br>
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" placeholder="Enter your address"><br><br>
+    <label for="state">State:</label>
+    <input type="text" id="state" name="state" placeholder="Enetr your state"><br><br>
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender">
+    <label for="other">Other</label><br><br>
+    <label for="branch">Branch:</label>
+    <select id="branch" name="branch">
+        <option value="select">Select</option>
+        <option value="cse">CSE</option>
+        <option value="cs">CS</option>
+        <option value="it">IT</option>
+        <option value="csit">CSIT</option>
+        <option value="ece">ECE</option>
+    </select><br><br>
+    <label for="password">Create Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter a password"><br><br>
+    <label for="upload">Upload your Image</label>
+    <input type="file" id="upload" name="upload"><br><br>
+    <input type="submit" value="Submit Your Details"><br><br>
+</form>
+
+</body>
+    </html>

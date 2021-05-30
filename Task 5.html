@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CALC
+        </title>
+        <style>
+            .body{
+                display: grid;
+                width: 400px;
+                height: 650px;
+                padding: 20px;
+                background-color: rgb(0, 0, 0);
+                color: rgb(245, 238, 238);
+                font-size:20px ;
+                align-items: center;
+                border-radius: 50px;
+                margin:auto;
+                box-shadow:rgb(139, 138, 138) 10px 10px 5px;;
+                
+                            }
+            .screen{
+                background-color: rgb(140, 146, 148);
+                border: 2px solid rgb(0, 0, 0);
+                color: black;
+                grid-column:auto;
+                margin: 10px ;
+                font-size: 20px;
+                text-align: right;
+                height: 70px;
+                      }
+            .flex-container {
+                width: 360px;
+                display: flex;
+                padding: auto;
+                margin-left: 20px;
+                background-color: rgb(206, 186, 97);
+                text-align: center;
+                                           
+                            }
+            .flex-container > div {
+                border-radius: 5px;
+                background-color: #000000;
+                margin: 10px;
+                padding: 20px;
+                font-size: 30px;
+                color: white;
+                box-shadow:rgb(24, 23, 23) 5px 5px 2px;
+                    }
+            #b1{
+                background-color: green;
+            }
+            #b2{
+                flex-basis: 30px;
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <div class="body" style="padding-top: 5px; text-align: center;"><h2><strong>Calculator</strong></h2>
+                        <b><div class="screen"><h1>0</h1></div>           
+                            <div class="flex-container">
+                                <div id="b2">1</div>
+                                <div id="b2">2</div>
+                                <div id="b2">3</div> 
+                                <div id="b2" style="background: red; font-size: 25px;"><=</div>
+                            </div>
+                            <div class="flex-container">
+                                <div id="b2">4</div>
+                                <div id="b2">5</div>
+                                <div id="b2">6</div> 
+                                <div id="b2">+</div>
+                            </div>
+                            <div class="flex-container">
+                                <div id="b2">7</div>
+                                <div id="b2">8</div>
+                                <div id="b2">9</div> 
+                                <div id="b2">-</div>
+                            </div>
+                            <div class="flex-container">
+                                <div id="b2"> . </div>
+                                <div id="b2">0</div>
+                                <div id="b2">00</div> 
+                                <div id="b2">*</div>
+                            </div>
+                                <div class="flex-container">
+                                <div id="b2" style="background: red;">C</div>
+                                <div style="flex-basis: 120px" id="b1" >=</div>
+                                <div id="b2">/</div> 
+                            </div>
+                        </b>
+        </div>
+    </body>
+</html>
